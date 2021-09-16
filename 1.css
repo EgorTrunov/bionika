@@ -1,0 +1,474 @@
+html
+{
+    background: url(img/001.jpg);
+}
+body
+{
+    width: 1100px;
+    margin: 5px auto 50px auto;
+    background: url(img/01.jpeg) no-repeat;
+    font-family: 'Calibri', sans-serif;
+}
+#header
+{
+    width: 1100px;
+    height: 400px;
+    padding-top: 1px;
+    background: url(img/1.png) repeat-x;
+}
+.two
+{
+    text-align:center;
+}
+h1
+{
+    font-size: 40px;
+    color: #FFF;
+    padding-left: 200px;
+    font-family:Calibri;
+    letter-spacing: 6px;
+}
+center
+{
+    padding:15px;
+}
+.ul
+{
+    line-height:150%;
+    width:850px; 
+    background: url(img/2.png) repeat;
+    margin: 5 auto;
+}
+.for
+{
+    width:870px;
+    margin-left:auto;
+    margin-right:auto;
+}
+p.gear 
+{
+    width:950px;
+}
+center.next
+{
+    height:50px;
+}
+.black
+{
+    padding: 10px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    -webkit-transition: background-color 0.3s ease; 
+    color:Black;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+.black:hover
+{
+    background-color: #FFDFD6;
+}
+center#temp
+{
+    width:850px;
+    margin-left:auto;
+    margin-right:auto;
+    background: url(img/2.png) repeat;
+}
+strong
+{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 140px;
+    font-size: 80px;
+    color: #FFF;
+}
+.menu
+{
+    width: 1100px;
+    height: 100px;
+    background-color: #CFC;
+    padding-top: 1px;
+    background: url(img/1.png) repeat-x;
+}
+.bottom
+{
+    width: 1100px;
+    height: 50px;
+    background-color: #CFC;
+    padding-top: 1px;
+    background: url(img/1.png) repeat-x;
+}
+ul#segue
+{
+    width: 300px;
+    padding: 5px auto;
+    color:Black;
+}
+a#segue
+{
+    color:black; 
+    text-decoration:none;
+}
+ul#one
+{
+    list-style: none;
+    margin: 40px auto;
+    width: 1050px;
+}
+ul#one li
+{
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+ul#one li a
+{
+    padding: 15px;    
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    -webkit-transition: background-color 0.3s ease; 
+    color: #D3D3D3;
+    font-size: 18px;
+    text-decoration: none;
+}
+ul#one li a:hover
+{
+    background-color: #D5A28B;
+}
+ul#one li a#selected, .menu li a#selected
+{
+    color: #FFF;
+}
+ul#one li a#selected:hover, .menu li a#selected:hover
+{
+    color: #FFF;
+}
+#list
+{
+    width: 1100px;
+    overflow: hidden;
+    background-color: #F1F1F1;
+    text-align: justify;
+    padding-bottom:20px;
+}
+#content
+{
+    width: 1100px;
+    overflow: hidden;
+    background-color: #F1F1F1;
+    text-align: justify;
+}
+#content p
+{
+    width: 900px;
+    margin: 15px auto;
+    padding: 15px;
+    background: url(img/2.png) repeat;
+}
+#content p.point
+{
+    margin: 40px auto;
+}
+#footer
+{
+    width: 1100px;
+    background-color: #F1F1F1;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.bottom ul
+{
+    width: 350px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.bottom ul li
+{
+    list-style: none;
+    margin-bottom:0;
+}
+ 
+.menu ul
+{
+    width: 150px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.menu ul li
+{
+    list-style: none;
+    margin-bottom: 10px; 
+}
+.menu li a
+{    
+    padding: 15px;    
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+    -webkit-transition: background-color 0.3s ease; 
+    color: #FFF;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+.bottom li a
+{    
+    text-align:center;   
+    color: #FFF;
+    font-size: 16px;
+    text-decoration: none;
+}
+.menu li a:hover
+{
+    background-color: #b64c60;
+}
+
+.div1, .div2, .div3, .div4
+{
+    float: left;
+    width: 250px;
+    height: 300px;
+    background-color: #eeeded;
+}
+.div1
+{
+    margin-top: 40px;
+    margin-left: 135px;
+}
+.div2
+{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.div3
+{
+    margin-top: 40px;
+    margin-left: 135px;
+    margin-bottom: 40px;
+}
+.div4
+{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+p.menutwo
+{
+    width: 240px;
+    height: 250px;
+    margin-top: 5px;
+    margin-left: 5px;
+    list-style: none;   
+}
+p.menutwo a
+{
+    display: inline-block;
+    width: 240px;
+    height: 250px;
+    -webkit-transition: background 0.5s ease;
+}
+
+h4.name
+{
+    margin-top: 13px;
+    text-align: center;
+    color: #0c5374;
+}
+h2#name
+{
+    text-align: center;
+}
+h3.section
+{
+    text-align: center;
+    padding-left: 45px;
+}
+ul.section
+{
+    width: 650px;
+    margin: 25px auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+    list-style-position: inside; 
+    border: 1px #000 dashed;
+}
+#header p
+{
+    height: 131px;
+    margin-top: -12px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 108px;
+    padding-top: 70px;
+    background: #F1F1F1;
+    opacity: 0.9;
+    color: #000;
+    font-size: 20px;
+    text-align: justify;
+}
+em
+{
+    color: #0c5374;
+}
+
+
+#one-one
+{
+   background: url(img/04.jpg) top left no-repeat; /* Губка */
+}
+#one-one:hover
+{
+    background: url(img/004.jpg) top left no-repeat;
+}
+#two
+{
+    background: url(img/05.jpg) top left no-repeat; /* AirJet */
+}
+#two:hover
+{
+    background: url(img/005.jpg) top left no-repeat;
+}
+#three
+{
+    background: url(img/06.jpg) top left no-repeat; /* Гексопод */
+}
+#three:hover
+{
+    background: url(img/006.jpg) top left no-repeat;
+}
+#four        
+{
+    background: url(img/07.jpg) top left no-repeat; /* Монопод */
+}
+#four:hover
+{
+    background: url(img/007.jpg) top left no-repeat;
+}
+#five        
+{
+    background: url(img/010.jpg) top left no-repeat; /* Эйфелева башня */
+}
+#five:hover
+{
+    background: url(img/0010.jpg) top left no-repeat;
+}
+#six
+{
+    background: url(img/011.jpg) top left no-repeat; /* Присоска */
+}
+#six:hover
+{
+    background: url(img/0011.jpg) top left no-repeat;
+}
+#seven
+{
+    background: url(img/03.jpg) top left no-repeat; /* Липучка */
+}
+#seven:hover
+{
+    background: url(img/003.jpg) top left no-repeat;
+}
+#eight
+{
+    background: url(img/02.jpg) top left no-repeat; /* I-Limb */
+}
+#eight:hover
+{
+    background: url(img/002.jpg) top left no-repeat;
+}
+#nine
+{
+    background: url(img/012.jpg) top left no-repeat; /* Бионическая рука */
+}
+#nine:hover
+{
+    background: url(img/0012.jpg) top left no-repeat;
+}
+#ten
+{
+    background: url(img/013.jpg) top left no-repeat; /* Субмарина */
+}
+#ten:hover
+{
+    background: url(img/0013.jpg) top left no-repeat;
+}
+#eleven
+{
+    background: url(img/014.jpg) top left no-repeat; /* Архитектура */
+}
+#eleven:hover
+{
+    background: url(img/0014.jpg) top left no-repeat; 
+}
+#twelve
+{
+    background: url(img/08.jpg) top left no-repeat; /* Агализаторы */
+}
+#twelve:hover
+{
+    background: url(img/008.jpg) top left no-repeat;
+}
+#thirteen
+{
+    background: url(img/016.jpg) top left no-repeat; /* Нервная система */
+}
+#thirteen:hover
+{
+    background: url(img/0016.jpg) top left no-repeat;
+}
+
+#fourteen      
+{
+    background: url(img/09.jpg) top left no-repeat; /* Зрение */
+}
+#fourteen:hover
+{
+    background: url(img/009.jpg) top left no-repeat;
+}
+#fifteen 
+{
+    background: url(img/017.jpg) top left no-repeat; /* Бионический город */
+}
+#fifteen:hover
+{
+    background: url(img/0017.jpg) top left no-repeat;
+}
+#sixteen
+{
+    background: url(img/018.jpg) top left no-repeat; /* Техника живых организмов */
+}
+#sixteen:hover
+{
+    background: url(img/0018.jpg) top left no-repeat;
+}
+#seventeen
+{
+    background: url(img/019.jpg) top left no-repeat; /* Слух */
+}
+#seventeen:hover
+{
+    background: url(img/0019.jpg) top left no-repeat;
+}
+#eighteen
+{
+    background: url(img/020.jpg) top left no-repeat; /* Персептроны */
+}
+#eighteen:hover
+{
+    background: url(img/0020.jpg) top left no-repeat;
+}
+#nineteen
+{
+    background: url(img/021.jpg) top left no-repeat; /* Био-тек */
+}
+#nineteen:hover
+{
+    background: url(img/0021.jpg) top left no-repeat;
+}
